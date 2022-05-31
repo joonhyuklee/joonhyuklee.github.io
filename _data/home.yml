@@ -67,8 +67,17 @@ footer_entries:
     url: feed.xml
 
 misc_entries:
-  - title: Lists and Ratings (mostly music and books)
+  - title: Currently Reading:
+    url: false
+    entries:
+            - title: Blood Meridian by Cormac McCarthy
+              url: false
+
+            - title: Dracula Daily
+              url: https://draculadaily.substack.com/about
+
+  - title: Lists and Ratings
     url: lists-and-ratings
 
-  - title: Yale Advice (mostly for course selection)
+  - title: Yale Course Selection
     url: yale-advice
