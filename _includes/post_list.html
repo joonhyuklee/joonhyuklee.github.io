@@ -1,7 +1,8 @@
 {% if site.posts.size > 0 %}
 	<ul>
+		<li>{{ site.posts|length }}</li>
 		{% for post in site.posts %}
-			{% if forloop.counter > 0 %}
+			{% if forloop.counter >= 0 %}
 				<li class="post-list-item">
 					<span class="home-date">
 						{{ post.date | date: site.theme_config.date_format }}»
