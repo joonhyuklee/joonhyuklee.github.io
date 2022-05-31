@@ -67,7 +67,7 @@ footer_entries:
     url: feed.xml
 
 misc_entries:
-  - title: Currently Reading:
+  - title: "Currently Reading:"
     url: false
     entries:
             - title: Blood Meridian by Cormac McCarthy
