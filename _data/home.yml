@@ -81,12 +81,3 @@ misc_entries:
 
   - title: Yale Course Selection
     url: yale-advice
-
-  - title: moonwalk on the Internet
-    url: false
-    entries:
-        - title: on Github
-          url: https://github.com/abhinavs/moonwalk
-
-        - title: originally built for abhinav's homepage
-          url: https://www.abhinav.co
