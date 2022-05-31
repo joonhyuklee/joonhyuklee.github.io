@@ -1,13 +1,12 @@
 {% if site.posts.size > 0 %}
 	<ul>
-		{% for post in site.posts %}
+		{% for post in site.posts|slice=":6" %}
 				<li class="post-list-item">
 					<span class="home-date">
 						{{ post.date | date: site.theme_config.date_format }}»
 					</span>
 					<a href="{{ post.url | relative_url }}">{{ post.title }}</a>
 				</li>
-				<li>{{ forloop.counter }}</li>
 		{% endfor %}
 		<li>
 			<a href= "https://joonhyuklee.github.io/blog">All posts</a>
