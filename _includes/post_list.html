@@ -7,6 +7,7 @@
 					</span>
 					<a href="{{ post.url | relative_url }}">{{ post.title }}</a>
 				</li>
+				<li>{{ forloop.counter }}</li>
 		{% endfor %}
 		<li>
 			<a href= "https://joonhyuklee.github.io/blog">All posts</a>
